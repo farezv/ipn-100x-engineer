@@ -75,50 +75,7 @@ restaurant-finder/
 
 ## 🎯 Workshop Exercises
 
-This project includes intentional areas for improvement as workshop exercises:
-
-### Exercise 1: Add Opening Hours Display
-**Location**: `components/RestaurantCard.tsx` and `app/page.tsx`
-
-Currently, opening and closing hours are available in the restaurant data but not displayed in the UI. Add a feature to show:
-- Opening and closing times
-- "Open Now" or "Closed" status based on current time
-
-### Exercise 2: Find and Remove Dead Code
-**Locations**: Various files throughout the project
-
-The project contains intentional dead code for this exercise:
-- Unused component: `components/RestaurantMap.tsx`
-- Unused API route: `app/api/restaurants/favorites/route.ts`
-- Unused utility functions in `utils/helpers.ts`
-- `console.log` statements that should be removed
-
-Use your IDE or AI assistant to identify and remove all dead code.
-
-### Exercise 3: Integrate Real Maps API
-**Location**: `components/SearchForm.tsx` and create new components
-
-Enhance the application with real map functionality:
-- Add geolocation support ("Use my location" button)
-- Integrate Google Maps or Mapbox to display restaurants on a map
-- Add clickable markers for each restaurant
-
-### Exercise 4: Add Unit Tests
-**Location**: `__tests__/` directory
-
-The test files contain skeletons and TODOs. Expand the test coverage:
-- Complete the component tests
-- Add API route tests
-- Achieve at least 80% code coverage
-
-### Exercise 5: Improve UI with Better Styling
-**Location**: Throughout the application
-
-Enhance the user interface:
-- Add animations and transitions
-- Improve the loading states
-- Add a dark mode toggle
-- Make the design more polished
+TODO: Please ask your instructors for the document link.
 
 ## 🔧 Configuration
 
@@ -130,11 +87,7 @@ Copy `.env.example` to `.env.local` and configure:
 cp .env.example .env.local
 ```
 
-Available variables:
-- `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` - For map integration (Exercise 3)
-- `NEXT_PUBLIC_APP_ENV` - Environment identifier
-
-### API Endpoints
+### API Endpoints (this one is provided, you'll be building more in the workshop)
 
 #### GET /api/restaurants
 
@@ -180,13 +133,9 @@ curl "http://localhost:3000/api/restaurants?address=San%20Francisco"
 
 ## 🤖 AI-Assisted Development
 
-This project is designed to be enhanced using AI coding assistants. Try using:
-- GitHub Copilot
-- Claude
-- ChatGPT
-- Cursor
+This project is designed to be enhanced using AI coding assistants such as Claude Code and agentic IDEs such as Cursor or Windsurf.
 
-Ask your AI assistant to help with the workshop exercises!
+We will focus on using Claude Code in this workshop so use whichever IDE you're comfortable with to review/edit files manually. 
 
 ## 📄 License
 
@@ -194,4 +143,4 @@ MIT License - feel free to use this project for learning and workshops.
 
 ## 🙏 Acknowledgments
 
-Built for the AI-Assisted Coding Workshop. Happy coding! 🎉
+Built for the "Becoming a 100x Dev" Workshop at IPNSummit 2026. Happy coding! 🎉
